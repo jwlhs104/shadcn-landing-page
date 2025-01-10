@@ -10,22 +10,21 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Shadcn
+              LINE
             </span>{" "}
-            landing page
+            機器人
           </h1>{" "}
-          for{" "}
+          幫您將群組照片自動備份到{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              React
+              Google Drive
             </span>{" "}
-            developers
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Build your React landing page effortlessly with the required sections
-          to your project.
+          將line群組分門別類的備份，不論是工作群組或是旅遊回憶都能夠輕鬆珍藏．
+          再也不擔心照片過期跟整理照片的費時費力.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
