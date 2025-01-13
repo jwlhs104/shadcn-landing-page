@@ -133,7 +133,7 @@ export const Navbar = () => {
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
-              <LineLogoIcon className="mr-2 w-5 h-5 text-white" />
+              <LineLogoIcon className="mr-2 w-5 h-5" />
               加入LINE好友
             </a>
 
