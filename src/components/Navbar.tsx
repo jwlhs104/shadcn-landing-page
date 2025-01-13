@@ -12,7 +12,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import LineLogoIcon from "@/components/logos/line";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
@@ -26,15 +26,15 @@ interface RouteProps {
 const routeList: RouteProps[] = [
   {
     href: "#features",
-    label: "Features",
+    label: "功能",
   },
   {
     href: "#testimonials",
-    label: "Testimonials",
+    label: "評價",
   },
   {
     href: "#pricing",
-    label: "Pricing",
+    label: "方案",
   },
   {
     href: "#faq",
@@ -55,7 +55,7 @@ export const Navbar = () => {
               className="ml-2 font-bold text-xl flex"
             >
               <LogoIcon />
-              ShadcnUI/React
+              Line機器人/Google Drive
             </a>
           </NavigationMenuItem>
 
@@ -102,8 +102,8 @@ export const Navbar = () => {
                       variant: "secondary",
                     })}`}
                   >
-                    <GitHubLogoIcon className="mr-2 w-5 h-5" />
-                    Github
+                    <LineLogoIcon className="mr-2 w-5 h-5" />
+                    加入Line好友
                   </a>
                 </nav>
               </SheetContent>
@@ -129,12 +129,12 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://lin.ee/e0sqgkW"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
-              <GitHubLogoIcon className="mr-2 w-5 h-5" />
-              Github
+              <LineLogoIcon className="mr-2 w-5 h-5 text-white" />
+              加入LINE好友
             </a>
 
             <ModeToggle />
