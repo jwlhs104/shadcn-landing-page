@@ -25,12 +25,8 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#features",
-    label: "功能",
-  },
-  {
-    href: "#testimonials",
-    label: "評價",
+    href: "#howItWorks",
+    label: "設定",
   },
   {
     href: "#pricing",
@@ -79,7 +75,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Shadcn/React
+                    Line機器人/Google Drive
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
@@ -96,7 +92,7 @@ export const Navbar = () => {
                   ))}
                   <a
                     rel="noreferrer noopener"
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                    href="https://lin.ee/e0sqgkW"
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
                       variant: "secondary",

@@ -5,7 +5,6 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { HowItWorks } from "./components/HowItWorks";
 import { Navbar } from "./components/Navbar";
-import { Newsletter } from "./components/Newsletter";
 import { Pricing } from "./components/Pricing";
 import { ScrollToTop } from "./components/ScrollToTop";
 import "./App.css";
@@ -19,7 +18,6 @@ function App() {
       <HowItWorks />
       <Cta />
       <Pricing />
-      <Newsletter />
       <FAQ />
       <Footer />
       <ScrollToTop />
