@@ -28,12 +28,12 @@ export const HeroCards = () => {
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
-            <CardDescription>@john_doe</CardDescription>
+            <CardTitle className="text-lg">Johnny Hsieh</CardTitle>
+            <CardDescription>@johnny_hsieh</CardDescription>
           </div>
         </CardHeader>
 
-        <CardContent>This landing page is awesome!</CardContent>
+        <CardContent>這個機器人真是太好用了！</CardContent>
       </Card>
 
       {/* Team */}
@@ -44,7 +44,7 @@ export const HeroCards = () => {
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Leo Miranda</CardTitle>
+          <CardTitle className="text-center">Johnny Hsieh</CardTitle>
           <CardDescription className="font-normal text-primary">
             Frontend Developer
           </CardDescription>
@@ -160,10 +160,9 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Light & dark mode</CardTitle>
+            <CardTitle>一次設定，免煩惱</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+              僅需設定一次，接下來就讓機器人自動幫您工作吧!
             </CardDescription>
           </div>
         </CardHeader>
