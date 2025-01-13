@@ -21,11 +21,7 @@ function App() {
       <Hero />
       <About />
       <HowItWorks />
-      <Features />
-      <Services />
       <Cta />
-      <Testimonials />
-      <Team />
       <Pricing />
       <Newsletter />
       <FAQ />
