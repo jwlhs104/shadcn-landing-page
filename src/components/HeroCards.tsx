@@ -28,8 +28,8 @@ export const HeroCards = () => {
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">Johnny Hsieh</CardTitle>
-            <CardDescription>@johnny_hsieh</CardDescription>
+            <CardTitle className="text-lg">Candice Chen</CardTitle>
+            <CardDescription>@candice_chen</CardDescription>
           </div>
         </CardHeader>
 
