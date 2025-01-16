@@ -9,6 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Check } from "lucide-react";
+import NewWebPay from "@/components/payment/NewWebPay"
 
 enum PopularPlanType {
   NO = 0,
@@ -45,7 +46,7 @@ const pricingList: PricingProps[] = [
     price: 499,
     description:
       "完整解鎖機器人的功能，讓他為您盡心盡力的服務吧!",
-    buttonText: "Start Free Trial",
+    buttonText: "選擇",
     benefitList: [
       "10個群組",
       "3000張照片/月",
@@ -104,6 +105,7 @@ export const Pricing = () => {
 
             <CardContent>
               <Button className="w-full">{pricing.buttonText}</Button>
+              <NewWebPay>{pricing.buttonText}</NewWebPay>
             </CardContent>
 
             <hr className="w-4/5 m-auto mb-4" />
