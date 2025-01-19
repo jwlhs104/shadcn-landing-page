@@ -9,7 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Check } from "lucide-react";
-import NewWebPay from "@/components/payment/NewWebPay"
+import NeWebPay from "@/components/payments/NeWebPay"
 
 enum PopularPlanType {
   NO = 0,
@@ -105,7 +105,7 @@ export const Pricing = () => {
 
             <CardContent>
               <Button className="w-full">{pricing.buttonText}</Button>
-              <NewWebPay>{pricing.buttonText}</NewWebPay>
+              <NeWebPay>{pricing.buttonText}</NeWebPay>
             </CardContent>
 
             <hr className="w-4/5 m-auto mb-4" />
