@@ -24,22 +24,24 @@ function sha256Hash(message) {
 
 export function GET(request) {
   const params = {
-    MerchantID: "MS127874575",
+    MerchantID: "MS148427498",
     RespondType: "String",
-    TimeStamp: "1695795410",
-    Version: "2.0",
-    MerchantOrderNo: "Vanespl_ec_1695795410",
-    Amt: 30,
-    ItemDesc: "test",
+    TimeStamp: "1837289826",
+    Version: "2.2",
+    MerchantOrderNo: "Line_Google_Drive_Bot_123",
+    Amt: 499,
+    ItemDesc: "Line Google Drive機器人專業版",
     NotifyURL: "https://webhook.site/d4db5ad1-2278-466a-9d66-78585c0dbadb",
   };
   const queryString = new URLSearchParams(params).toString();
-  const hashKey = "Fs5cX1TGqYM2PpdbE14a9H83YQSQF5jn"
-  const hashIv = "C6AcmfqJILwgnhIP"
+  const hashKey = "zqr70wkJiJyXrpjoL1XWAgVDlNNIKnBs"
+  const hashIv = "C43Ge3BYGxLl7qmP"
   const edata = encryptAES256CBC(queryString, hashKey, hashIv);
   const hashs = `HashKey=${hashKey}&${edata}&HashIV=${hashIv}`
   const hash = sha256Hash(hashs).toUpperCase()
   return Response.json({
+    "Version": "2.2",
+    "MerchantID": "MS148427498",
     "TradeInfo": edata,   
     "TradeSha": hash
   });
