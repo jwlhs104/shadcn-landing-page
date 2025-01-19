@@ -1,8 +1,13 @@
-import React, { useRef, useEffect, useState } from "react";
-
-const PaymentForm = ({ amount, currency, children }) => {
-  const formRef = useRef(null);
-  const [neWebPayData, setNewebPayData] = useState({})
+import { useRef, useEffect, useState } from "react";
+type Props = {
+  children: string | JSX.Element | JSX.Element[]
+}
+type NewebPayData = {
+  [key: string]: string; // Assume all values in the data are strings
+};
+const PaymentForm = ({ children }: Props) => {
+  const formRef = useRef<HTMLFormElement | null>(null);
+  const [neWebPayData, setNewebPayData] = useState<NewebPayData>({})
   useEffect(() => {
     fetch("/api/createOrder")
       .then(res=>res.json())
