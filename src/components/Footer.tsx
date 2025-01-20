@@ -23,7 +23,7 @@ export const Footer = () => {
             <a
               rel="noreferrer noopener"
               target="_blank"
-              href="https://www.instagram.com/johnny85215/"
+              href="https://github.com/jwlhs104"
               className="text-primary transition-all border-primary hover:border-b-2"
             >
               Johnny Hsieh
