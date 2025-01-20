@@ -1,10 +1,13 @@
 import { useRef, useEffect, useState } from "react";
+import { Button } from "@/components/ui/button";
+
 type Props = {
   children: string | JSX.Element | JSX.Element[]
 }
 type NewebPayData = {
   [key: string]: string; // Assume all values in the data are strings
 };
+
 const PaymentForm = ({ children }: Props) => {
   const formRef = useRef<HTMLFormElement | null>(null);
   const [neWebPayData, setNewebPayData] = useState<NewebPayData>({})
@@ -35,9 +38,9 @@ const PaymentForm = ({ children }: Props) => {
         }
       </form>
 
-      <button onClick={startPaymentProcess}>
+      <Button className="w-full" onClick={startPaymentProcess}>
         {children}
-      </button>
+      </Button>
     </div>
   );
 };

@@ -104,7 +104,6 @@ export const Pricing = () => {
             </CardHeader>
 
             <CardContent>
-              <Button className="w-full">{pricing.buttonText}</Button>
               <NeWebPay>{pricing.buttonText}</NeWebPay>
             </CardContent>
 
