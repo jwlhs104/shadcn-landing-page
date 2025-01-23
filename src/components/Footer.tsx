@@ -26,7 +26,7 @@ export const Footer = () => {
               href="https://github.com/jwlhs104"
               className="text-primary transition-all border-primary hover:border-b-2"
             >
-              Johnny Hsieh
+              謝中耘
             </a>
           </h3>
           <div className="flex gap-2">
