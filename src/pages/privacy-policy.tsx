@@ -1,6 +1,10 @@
+import "./policy.css";
 const PrivacyPolicy = () => {
   return (
-    <div style={{ padding: "20px", maxWidth: "800px", margin: "0 auto" }}>
+    <div
+      className="policy"
+      style={{ padding: "20px", maxWidth: "800px", margin: "0 auto" }}
+    >
       <h1>Privacy Policy</h1>
 
       <p>
@@ -67,4 +71,3 @@ const PrivacyPolicy = () => {
 };
 
 export default PrivacyPolicy;
-

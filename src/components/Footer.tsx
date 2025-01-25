@@ -30,17 +30,14 @@ export const Footer = () => {
             </a>
           </h3>
           <div className="flex gap-2">
-            <a
-              target="_blank"
-              href="/privacy-policy"
-            >
+            <a target="_blank" href="/privacy-policy">
               隱私權政策
             </a>
-            <a
-              target="_blank"
-              href="/terms-of-service"
-            >
+            <a target="_blank" href="/terms-of-service">
               服務條款
+            </a>
+            <a target="_blank" href="/refund-policy">
+              退款政策
             </a>
           </div>
         </div>

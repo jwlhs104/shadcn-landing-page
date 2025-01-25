@@ -1,6 +1,9 @@
 const TermsOfService = () => {
   return (
-    <div style={{ padding: "20px", maxWidth: "800px", margin: "0 auto" }}>
+    <div
+      className="policy"
+      style={{ padding: "20px", maxWidth: "800px", margin: "0 auto" }}
+    >
       <h1>Terms of Service</h1>
 
       <p>
@@ -70,4 +73,3 @@ const TermsOfService = () => {
 };
 
 export default TermsOfService;
-
