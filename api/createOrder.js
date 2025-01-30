@@ -37,7 +37,6 @@ export function GET() {
     Amt: 499,
     ItemDesc: "Line Google Drive機器人專業版",
   };
-  console.log(params);
   const queryString = new URLSearchParams(params).toString();
   const hashKey = "zqr70wkJiJyXrpjoL1XWAgVDlNNIKnBs";
   const hashIv = "C43Ge3BYGxLl7qmP";
